@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/sizes.css">
+    <link rel="stylesheet" href="./styles/positions.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <script defer src="/scripts/modal.js"></script>
+    <title>Login</title>
+</head>
+<body class="w-screen  h-screen position-relative"> 
+    <main id="container" class="w-full h-full flex flex-item flex-justify bg-color-grey-1">
+        <section class="w-container h-container flex flex-item flex-justify flex-col bg-color-grey-3 border-left flex-gap">
+            <h1 class="logo">Kenzie Bank</h1>
+            <p class="text text-center">Venha fazer parte do maior banco do <span class="extra">Brasil</span>.</p>
+            <p class="text"><span class="extra">+3,895%</span> de renda mensal para todos os clientes</p>
+        </section>
+        <section class="w-container h-container flex flex-col flex-justify flex-item bg-color-grey-6 border-rigth">
+            <form class="w-half h-half flex flex-col flex-justify flex-item flex-gap flex-justify-evenly">
+                <h2 class="w-full flex flex-start h2">Entrar na conta</h2>
+                <input class='input' type="text" placeholder="E-mail">
+                <input class="input" type="password" placeholder="Senha">
+                <p class="w-full flex flex-end font">Ainda não tem conta? <a id="registrar" class="extra link pointer">Registri-se aqui.</a></p>
+                <button class="button font bg-color-primary border-radius">Entrar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

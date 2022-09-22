@@ -1,0 +1,39 @@
+.w-screen{
+    width: 100vw;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.w-half{
+    width: 75%;
+}
+
+.w-container{
+    width: 35%;
+}
+
+.h-screen{
+    height: 100vh;
+}
+
+.h-full{
+    height: 100%;
+}
+
+.h-half{
+    height: 75%;
+}
+
+.h-container{
+    height: 40%;
+}
+
+.w-popUp{
+    width: 25%;
+}
+
+.h-popUp{
+    height: 25%;
+}
